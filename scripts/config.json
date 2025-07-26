@@ -1,7 +1,7 @@
 {
     "create_dummy_post": false,
     "connection": {
-        "hostname": "172.28.82.224",
+        "hostname": "172.28.83.91",
         "username": "admin",
         "password": "Infoblox@123",
         "wapi_version": "2.13.1",
@@ -154,7 +154,6 @@
             "member:threatprotection",
             "member:parentalcontrol",
             "member:threatinsight",
-            "membercloudsync",
             "memberdfp",
             "gmcgroup",
             "gmcschedule",
@@ -247,16 +246,7 @@
         ],
         "cloud": [
             "awsrte53taskgroup",
-            "awsuser",
-            "azurednstaskgroup",
-            "azureuser",
-            "gcpdnstaskgroup",
-            "gcpuser",
-            "multiregions"
-        ],
-        "federatedrealms": [
-            "federatedrealms",
-            "fedipamop"
+            "awsuser"
         ],
         "microsoftserver": [
             "msserver",
